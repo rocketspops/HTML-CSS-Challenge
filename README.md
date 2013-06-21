@@ -4,6 +4,12 @@ You have 1 hour to re-create the following header derived from a fictional websi
   
 ![Please recreate this mockup](/images/mockup.png)
 
+NOTE TO INTERVIEWERS: 
+
+There is some additional behavior that could not be documented from an 
+image alone. Please demo the page before asking the interviewee to 
+recreate it.
+
 # Instructions
 
 To run this test locally, navigate to the project directory and execute: 
