@@ -2,6 +2,12 @@
 
 You have 1 hour to re-create this header from a fictional website. A basic project structure has already been created for you, but please feel free to modify it as you see fit. Questions are  both encouraged and welcomed.  
 
+# Instructions
+
+To run this test locally navigate to the project directory and execute: 
+
+    $ python -m SimpleHTTPServer
+  
 # Considerations
 
 1. __Engagement:__
