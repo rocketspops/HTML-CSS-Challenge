@@ -1,6 +1,9 @@
 # HTML/CSS Challenge: 
 
-You have 1 hour to re-create this header from a fictional website. A basic project structure has already been created for you, but please feel free to modify it as you see fit. Questions are  both encouraged and welcomed.  
+You have 1 hour to re-create the following header derived from a fictional website. A basic project structure has already been created for you, but please feel free to modify it as you see fit. Questions are  both encouraged and welcomed.  
+
+
+![Please recreate this mockup](/images/mockup.png)
 
 # Instructions
 
