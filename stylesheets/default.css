@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "SS-Steedicons";
+  src: url('../fonts/ss-steedicons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "proxima-nova-soft", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  
+  -moz-transition: color 0.1s 0;
+  -webkit-transition: color 0.1s 0;
+  transition: color 0.1s 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table; 
+}
+
+.clearfiz:after {
+  clear: both;
+}
+
+.container {
+  height: 100%;
+  position: fixed;
+  width: 100%; 
+}
+
+.header {
+  font-size: 0;
+  overflow: hidden;
+  position: absolute;
+    bottom: 10%;
+    top: 10%;
+  text-align: center;
+  width: 100%;
+}
+
+.header:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.nav {
+  border-color: rgb(220,220,220);
+  border-style: solid;
+  border-width: 1px 0;
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: middle;
+  width: 600px;
+}
+
+.logo {
+  display: block;
+  font-family: "ff-prater-script-web", sans-serif;
+  font-size: 24px;
+  height: 40px;
+  position: relative;
+    top: -20px;
+}
+
+.logo a {
+  background: white;
+  color: rgb(40, 40, 40);
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.logo a:hover {
+  color: rgb(254, 111, 103);
+}
+
+.nav__menu {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+.nav__menu li {
+  float: left;
+  width: 100px;
+}
+
+.nav__menu a {
+  color: rgb(180, 180, 180);
+  display: block;
+  line-height: 1em;
+  padding-top: 40px;
+  position: relative;
+}
+
+.nav__menu a:hover,
+.nav__menu a.active {
+  color: rgb(40, 40, 40);
+}
+
+.nav__menu a:active {
+  color: rgb(254, 111, 103);
+}
+
+.nav__menu a:before {
+  content: attr(data-icon);
+  font-family: "SS-Steedicons";
+  font-size: 32px;
+  line-height: 1em;
+  margin-left: -0.5em;
+  position: absolute;
+    top: 0;
+    left: 50%;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+

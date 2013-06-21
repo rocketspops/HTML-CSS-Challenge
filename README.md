@@ -1,6 +1,6 @@
 # HTML/CSS Challenge: 
 
-You have 1 hour to re-create as much of this article from the New York Times as you possibly can. A basic project structure has already been created for you, but please feel free to modify it as you see fit. Also note, we are less concerned with your ability to finish the entire layout in the time allotted than we are with the way you approach the task as a whole. Questions are  both encouraged and welcomed.  
+You have 1 hour to re-create this header from a fictional website. A basic project structure has already been created for you, but please feel free to modify it as you see fit. Questions are  both encouraged and welcomed.  
 
 # Considerations
 
