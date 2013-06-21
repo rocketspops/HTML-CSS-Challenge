@@ -4,9 +4,13 @@ You have 1 hour to re-create this header from a fictional website. A basic proje
 
 # Instructions
 
-To run this test locally navigate to the project directory and execute: 
+To run this test locally, navigate to the project directory and execute: 
 
     $ python -m SimpleHTTPServer
+
+Then, in your browser, visit the following URL:
+
+    http://localhost:8080
   
 # Considerations
 
