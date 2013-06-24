@@ -1,7 +1,7 @@
 $(function() {
 
- $('.nav__menu a').click( function() { 
-   $('.nav__menu a').removeClass('active');
+ $('.nav li a').click( function() { 
+   $('.nav li a').removeClass('active');
    $(this).addClass('active');
    return false;
  }) 
