@@ -18,28 +18,12 @@ a {
   transition: color 0.1s 0;
 }
 
-.clearfix:before,
-.clearfix:after {
-  content: " "; 
-  display: table; 
-}
-
-.clearfiz:after {
-  clear: both;
-}
-
-.container {
-  height: 100%;
-  position: fixed;
-  width: 100%; 
-}
-
 .header {
   font-size: 0;
   overflow: hidden;
-  position: absolute;
-    bottom: 10%;
-    top: 10%;
+  position: fixed;
+    bottom: 0;
+    top: 0;
   text-align: center;
   width: 100%;
 }
@@ -61,39 +45,25 @@ a {
   width: 600px;
 }
 
-.logo {
-  display: block;
-  font-family: "ff-prater-script-web", sans-serif;
-  font-size: 24px;
-  height: 40px;
-  position: relative;
-    top: -20px;
-}
-
-.logo a {
-  background: white;
-  color: rgb(40, 40, 40);
-  display: inline-block;
-  padding: 0 10px;
-}
-
-.logo a:hover {
-  color: rgb(254, 111, 103);
-}
-
-.nav__menu {
+.nav ul {
   display: inline-block;
   list-style-type: none;
   margin: 0 0 30px 0;
   padding: 0;
 }
 
-.nav__menu li {
+.nav ul:after {
+  content: " "; 
+  display: table; 
+  clear: both
+}
+
+.nav li {
   float: left;
   width: 100px;
 }
 
-.nav__menu a {
+.nav li a {
   color: rgb(180, 180, 180);
   display: block;
   line-height: 1em;
@@ -101,24 +71,24 @@ a {
   position: relative;
 }
 
-.nav__menu a:hover,
-.nav__menu a.active {
+.nav li a:hover,
+.nav li a.active {
   color: rgb(40, 40, 40);
 }
 
-.nav__menu a:active {
+.nav li a:active {
   color: rgb(254, 111, 103);
 }
 
-.nav__menu a:before {
+.nav li a:before {
   content: attr(data-icon);
   font-family: "SS-Steedicons";
   font-size: 32px;
   line-height: 1em;
   margin-left: -0.5em;
   position: absolute;
-    top: 0;
     left: 50%;
+    top: 0;
   text-decoration: none;
   text-rendering: optimizeLegibility;
   white-space: nowrap;
@@ -127,4 +97,19 @@ a {
   font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
 }
+
+.logo {
+  background: white;
+  color: rgb(40, 40, 40);
+  display: inline-block;
+  font-family: "ff-prater-script-web", sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 10px;
+  position: relative;
+    top: -20px;
+}
+
+.logo:hover { color: rgb(254, 111, 103); }
 
