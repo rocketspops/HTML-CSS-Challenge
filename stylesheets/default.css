@@ -5,15 +5,24 @@ SS STEEDICONS
 You will need the following properties to implement the 
 icon font this exercise uses:
 
-  font-family: "SS-Steedicons";
-  line-height: 1em;
-  text-decoration: none;
-  text-rendering: optimizeLegibility;
-  white-space: nowrap;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga";
-  font-feature-settings: "liga";
-  -webkit-font-smoothing: antialiased;
+font-family: "SS-Steedicons";
+line-height: 1em;
+text-decoration: none;
+text-rendering: optimizeLegibility;
+white-space: nowrap;
+-webkit-font-feature-settings: "liga";
+-moz-font-feature-settings: "liga";
+font-feature-settings: "liga";
+-webkit-font-smoothing: antialiased;
+
+SS STEEDICONS GLYPH REFERENCE
+
+Home:       &#x2302;
+About:      &#x1F469;
+Menu:       &#x1F374;
+Hours:      &#x23F2;
+Directions: &#xE673;
+Reviews:    &#x1F44D
 
 TYPEKIT FONTS
 
