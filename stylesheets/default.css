@@ -2,7 +2,7 @@
 
 SS STEEDICONS
 
-You will need the following properties to implement the 
+You will need the following properties to implement the
 icon font this exercise uses:
 
 font-family: "SS-Steedicons";
@@ -23,6 +23,13 @@ Menu:       &#x1F374
 Hours:      &#x23F2
 Directions: &#xE673
 Reviews:    &#x1F44D
+
+COLORS
+
+Borders:            rgb(220, 220, 220)
+Inactive Text:      rgb(180, 180, 180)
+Active Text:        rgb(40, 40, 40)
+Accent Text-Color:  rgb(254, 111, 103)
 
 TYPEKIT FONTS
 
