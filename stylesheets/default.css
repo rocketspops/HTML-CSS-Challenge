@@ -17,11 +17,11 @@ font-feature-settings: "liga";
 
 SS STEEDICONS GLYPH REFERENCE
 
-Home:       &#x2302;
-About:      &#x1F469;
-Menu:       &#x1F374;
-Hours:      &#x23F2;
-Directions: &#xE673;
+Home:       &#x2302
+About:      &#x1F469
+Menu:       &#x1F374
+Hours:      &#x23F2
+Directions: &#xE673
 Reviews:    &#x1F44D
 
 TYPEKIT FONTS
@@ -32,6 +32,12 @@ a third part font hosting service:
   font-family: "proxima-nova-soft", sans-serif;
   font-family: "ff-prater-script-web", sans-serif;
 
+FONT SIZES
+
+Main Heading: 24px
+Icons: 32px
+Body: 16px
+
 */
 
 @font-face {
@@ -40,4 +46,3 @@ a third part font hosting service:
   font-weight: normal;
   font-style: normal;
 }
-
