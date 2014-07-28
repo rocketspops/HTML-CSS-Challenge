@@ -28,20 +28,15 @@ a {
   width: 100%;
 }
 
-.header:after {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-
 .nav {
   border-color: rgb(220,220,220);
   border-style: solid;
   border-width: 1px 0;
-  display: inline-block;
   font-size: 1rem;
-  vertical-align: middle;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
   width: 600px;
 }
 
@@ -112,4 +107,3 @@ a {
 }
 
 .logo:hover { color: rgb(254, 111, 103); }
-
